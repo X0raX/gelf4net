@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gelf4net", "gelf4net\gelf4net.csproj", "{21601568-D8AD-433F-998D-1500A27F3FBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gelf4netTests", "gelf4netTests\gelf4netTests.csproj", "{713C9C99-6008-445A-A308-8EE32EA5A275}"
@@ -11,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{14E74B
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gelf4netRwestTests", "gelf4netRwestTests\gelf4netRwestTests.csproj", "{D3E35DA5-269C-4C8F-A289-79E73148E33A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,10 @@ Global
 		{713C9C99-6008-445A-A308-8EE32EA5A275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713C9C99-6008-445A-A308-8EE32EA5A275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713C9C99-6008-445A-A308-8EE32EA5A275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E35DA5-269C-4C8F-A289-79E73148E33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E35DA5-269C-4C8F-A289-79E73148E33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E35DA5-269C-4C8F-A289-79E73148E33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E35DA5-269C-4C8F-A289-79E73148E33A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

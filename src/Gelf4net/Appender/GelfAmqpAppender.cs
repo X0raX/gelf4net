@@ -37,7 +37,7 @@ namespace gelf4net.Appender
         {
             ConnectionFactory = new ConnectionFactory()
             {
-                Protocol = Protocols.FromEnvironment(),
+                Protocol = Protocols.DefaultProtocol,
                 HostName = RemoteAddress,
                 Port = RemotePort,
                 VirtualHost = VirtualHost,
